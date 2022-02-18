@@ -5,7 +5,7 @@ public class testando {
         //Pedindo para o usuario que digite a senha.
         Scanner scan = new Scanner(System.in);//funçao que posibilita pedir senha para o usuario.
         
-         /*Aqui sera fornecido para o usuario as infromações para criar a senha ,
+         /*Aqui sera fornecido para o usuario as informações para criar a senha ,
          e ele podera criar sua senha */
         System.out.println("Nossa plataforma considera uma senha forte \n " +
                            "quando ela satisfaz os seguintes critérios:\n" +
