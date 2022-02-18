@@ -4,6 +4,18 @@ public class testando {
     public static void main(String[] args) {
         //Pedindo para o usuario que digite a senha.
         Scanner scan = new Scanner(System.in);//funçao que posibilita pedir senha para o usuario.
+        
+         /*Aqui sera fornecido para o usuario as infromações para criar a senha ,
+         e ele podera criar sua senha */
+        System.out.println("Nossa plataforma considera uma senha forte \n " +
+                           "quando ela satisfaz os seguintes critérios:\n" +
+                           "Possui no mínimo 6 caracteres.\n" +
+                           "Contém no mínimo 1 digito.\n" +
+                           "Contém no mínimo 1 letra em minúsculo.\n" +
+                           "Contém no mínimo 1 letra em maiúsculo.\n" +
+                           "Contém no mínimo 1 caractere especial.\n " +
+                           "Os caracteres especiais são: !@#$%^&*()-+\n");
+
         System.out.println("Crie a sua senha:");
         String senha = scan.next();//recebe a senha do usuario.
 
